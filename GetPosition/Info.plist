@@ -6,6 +6,8 @@
 	<string>Carl</string>
 	<key>NSLocationAlwaysUsageDescription</key>
 	<string>Prilo</string>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>

@@ -19,13 +19,42 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    
+    _isStart = false;
+    [self initView];
     _locationManager = [[CLLocationManager alloc] init];
     _locationManager.delegate = self;
     
     [_locationManager requestAlwaysAuthorization];
-    [_locationManager startUpdatingLocation];
+    [_locationManager requestWhenInUseAuthorization];
+    
 }
+
+- (void) btnEvent{
+    NSLog(@"click here!");
+    if(!_isStart){
+        [_locationManager startUpdatingLocation];
+        _isStart = TRUE;
+        NSLog(@"start");
+    }else{
+        [_locationManager stopUpdatingLocation];
+        _isStart = FALSE;
+        NSLog(@"stop");
+    }
+    
+}
+
+- (void) initView{
+    NSLog(@"init view");
+    _button = [UIButton buttonWithType:UIButtonTypeCustom];
+    CGRect bounds = [UIScreen mainScreen].bounds;
+    
+    _button.frame = CGRectMake(bounds.size.width-300,bounds.size.height-300,200, 100);
+    _button.backgroundColor = [UIColor redColor];
+    [_button setTitle:@"GetPosition" forState:UIControlStateNormal];
+    [_button addTarget:self action:@selector(btnEvent) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:_button];
+}
+
 
 - (void) didReceiveMemoryWarning{
     [super didReceiveMemoryWarning];
