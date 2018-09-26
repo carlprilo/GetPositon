@@ -82,7 +82,7 @@
 -(void) locationManager:(CLLocationManager *)manager didUpdateLocations:(nonnull NSArray<CLLocation *> *)locations{
     CLLocation *location = [locations lastObject];
     NSLog(@"经度：%f,纬度：%f,海拔：%f,航向：%f,行走速度：%f", location.coordinate.longitude, location.coordinate.latitude,location.altitude,location.course,location.speed);
-    _lastPositionS =  [NSString stringWithFormat:@"@%lu 经度：%f, 纬度：%f", [_positions count],location.coordinate.longitude , location.coordinate.latitude];
+    _lastPositionS =  [NSString stringWithFormat:@"%lu 经度 %f,纬度 %f", [_positions count],location.coordinate.longitude , location.coordinate.latitude];
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
