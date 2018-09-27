@@ -14,26 +14,7 @@
 		E3A0B406215B608D00699CEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3A0B405215B608D00699CEE /* Assets.xcassets */; };
 		E3A0B409215B608D00699CEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3A0B407215B608D00699CEE /* LaunchScreen.storyboard */; };
 		E3A0B40C215B608D00699CEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A0B40B215B608D00699CEE /* main.m */; };
-		E3A0B416215B608D00699CEE /* GetPositionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A0B415215B608D00699CEE /* GetPositionTests.m */; };
-		E3A0B421215B608D00699CEE /* GetPositionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A0B420215B608D00699CEE /* GetPositionUITests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		E3A0B412215B608D00699CEE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E3A0B3F1215B608B00699CEE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E3A0B3F8215B608B00699CEE;
-			remoteInfo = GetPosition;
-		};
-		E3A0B41D215B608D00699CEE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E3A0B3F1215B608B00699CEE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E3A0B3F8215B608B00699CEE;
-			remoteInfo = GetPosition;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		E324F7AF215BBCA3002C9857 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -47,30 +28,10 @@
 		E3A0B408215B608D00699CEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3A0B40A215B608D00699CEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3A0B40B215B608D00699CEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E3A0B411215B608D00699CEE /* GetPositionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetPositionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3A0B415215B608D00699CEE /* GetPositionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetPositionTests.m; sourceTree = "<group>"; };
-		E3A0B417215B608D00699CEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E3A0B41C215B608D00699CEE /* GetPositionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetPositionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3A0B420215B608D00699CEE /* GetPositionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetPositionUITests.m; sourceTree = "<group>"; };
-		E3A0B422215B608D00699CEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E3A0B3F6215B608B00699CEE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E3A0B40E215B608D00699CEE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E3A0B419215B608D00699CEE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -85,8 +46,6 @@
 			children = (
 				E324F7AF215BBCA3002C9857 /* README.md */,
 				E3A0B3FB215B608B00699CEE /* GetPosition */,
-				E3A0B414215B608D00699CEE /* GetPositionTests */,
-				E3A0B41F215B608D00699CEE /* GetPositionUITests */,
 				E3A0B3FA215B608B00699CEE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,8 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				E3A0B3F9215B608B00699CEE /* GetPosition.app */,
-				E3A0B411215B608D00699CEE /* GetPositionTests.xctest */,
-				E3A0B41C215B608D00699CEE /* GetPositionUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,24 +72,6 @@
 				E3A0B40B215B608D00699CEE /* main.m */,
 			);
 			path = GetPosition;
-			sourceTree = "<group>";
-		};
-		E3A0B414215B608D00699CEE /* GetPositionTests */ = {
-			isa = PBXGroup;
-			children = (
-				E3A0B415215B608D00699CEE /* GetPositionTests.m */,
-				E3A0B417215B608D00699CEE /* Info.plist */,
-			);
-			path = GetPositionTests;
-			sourceTree = "<group>";
-		};
-		E3A0B41F215B608D00699CEE /* GetPositionUITests */ = {
-			isa = PBXGroup;
-			children = (
-				E3A0B420215B608D00699CEE /* GetPositionUITests.m */,
-				E3A0B422215B608D00699CEE /* Info.plist */,
-			);
-			path = GetPositionUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,42 +94,6 @@
 			productReference = E3A0B3F9215B608B00699CEE /* GetPosition.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E3A0B410215B608D00699CEE /* GetPositionTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E3A0B428215B608D00699CEE /* Build configuration list for PBXNativeTarget "GetPositionTests" */;
-			buildPhases = (
-				E3A0B40D215B608D00699CEE /* Sources */,
-				E3A0B40E215B608D00699CEE /* Frameworks */,
-				E3A0B40F215B608D00699CEE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E3A0B413215B608D00699CEE /* PBXTargetDependency */,
-			);
-			name = GetPositionTests;
-			productName = GetPositionTests;
-			productReference = E3A0B411215B608D00699CEE /* GetPositionTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		E3A0B41B215B608D00699CEE /* GetPositionUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E3A0B42B215B608D00699CEE /* Build configuration list for PBXNativeTarget "GetPositionUITests" */;
-			buildPhases = (
-				E3A0B418215B608D00699CEE /* Sources */,
-				E3A0B419215B608D00699CEE /* Frameworks */,
-				E3A0B41A215B608D00699CEE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E3A0B41E215B608D00699CEE /* PBXTargetDependency */,
-			);
-			name = GetPositionUITests;
-			productName = GetPositionUITests;
-			productReference = E3A0B41C215B608D00699CEE /* GetPositionUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -202,14 +105,6 @@
 				TargetAttributes = {
 					E3A0B3F8215B608B00699CEE = {
 						CreatedOnToolsVersion = 10.0;
-					};
-					E3A0B410215B608D00699CEE = {
-						CreatedOnToolsVersion = 10.0;
-						TestTargetID = E3A0B3F8215B608B00699CEE;
-					};
-					E3A0B41B215B608D00699CEE = {
-						CreatedOnToolsVersion = 10.0;
-						TestTargetID = E3A0B3F8215B608B00699CEE;
 					};
 				};
 			};
@@ -227,8 +122,6 @@
 			projectRoot = "";
 			targets = (
 				E3A0B3F8215B608B00699CEE /* GetPosition */,
-				E3A0B410215B608D00699CEE /* GetPositionTests */,
-				E3A0B41B215B608D00699CEE /* GetPositionUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -245,20 +138,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E3A0B40F215B608D00699CEE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E3A0B41A215B608D00699CEE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -272,36 +151,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E3A0B40D215B608D00699CEE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E3A0B416215B608D00699CEE /* GetPositionTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E3A0B418215B608D00699CEE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E3A0B421215B608D00699CEE /* GetPositionUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E3A0B413215B608D00699CEE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E3A0B3F8215B608B00699CEE /* GetPosition */;
-			targetProxy = E3A0B412215B608D00699CEE /* PBXContainerItemProxy */;
-		};
-		E3A0B41E215B608D00699CEE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E3A0B3F8215B608B00699CEE /* GetPosition */;
-			targetProxy = E3A0B41D215B608D00699CEE /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E3A0B402215B608B00699CEE /* Main.storyboard */ = {
@@ -448,7 +298,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ecnuces.cp.GetPosition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -465,81 +315,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ecnuces.cp.GetPosition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		E3A0B429215B608D00699CEE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DH6Y86L6XJ;
-				INFOPLIST_FILE = GetPositionTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = ecnuces.cp.GetPositionTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetPosition.app/GetPosition";
-			};
-			name = Debug;
-		};
-		E3A0B42A215B608D00699CEE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DH6Y86L6XJ;
-				INFOPLIST_FILE = GetPositionTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = ecnuces.cp.GetPositionTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetPosition.app/GetPosition";
-			};
-			name = Release;
-		};
-		E3A0B42C215B608D00699CEE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DH6Y86L6XJ;
-				INFOPLIST_FILE = GetPositionUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = ecnuces.cp.GetPositionUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = GetPosition;
-			};
-			name = Debug;
-		};
-		E3A0B42D215B608D00699CEE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DH6Y86L6XJ;
-				INFOPLIST_FILE = GetPositionUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = ecnuces.cp.GetPositionUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = GetPosition;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -560,24 +336,6 @@
 			buildConfigurations = (
 				E3A0B426215B608D00699CEE /* Debug */,
 				E3A0B427215B608D00699CEE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E3A0B428215B608D00699CEE /* Build configuration list for PBXNativeTarget "GetPositionTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E3A0B429215B608D00699CEE /* Debug */,
-				E3A0B42A215B608D00699CEE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E3A0B42B215B608D00699CEE /* Build configuration list for PBXNativeTarget "GetPositionUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E3A0B42C215B608D00699CEE /* Debug */,
-				E3A0B42D215B608D00699CEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
